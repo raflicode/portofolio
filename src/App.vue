@@ -63,7 +63,7 @@
     </div>
   </div>
   <!-- about -->
-  <div class="container-fluid bg-light-subtle about" id="about">
+  <div class="container-fluid about" id="about">
     <div class="container">
       <h2 class="display-3 text-center fw-bold">
         About <span class="text-dark-emphasis">Me</span>
@@ -93,6 +93,52 @@
       </div>
     </div>
   </div>
+  <!-- skills -->
+  <div class="container-fluid skill py-5" id="skills">
+    <div class="container">
+      <h2 class="fw-bold display-4 text-center">Skills</h2>
+      <!-- Language & Markup -->
+      <h4 class="fw-semibold">Languages & Markup</h4>
+      <div class="d-flex flex-wrap gap-5 mb-5">
+        <img
+          src="https://i.pinimg.com/736x/a2/7d/14/a27d14a27b5ef7d35c241d5cc9c1deb4.jpg"
+          class="skill-icon"
+        />
+        <img
+          src="https://i.pinimg.com/736x/62/1f/21/621f21fa891b48023ff7c4dff12c7aa0.jpg"
+          class="skill-icon"
+        />
+        <img
+          src="https://i.pinimg.com/736x/3d/43/02/3d43022040cff5074ebe1cd483fcdfe4.jpg"
+          class="skill-icon"
+        />
+        <img
+          src="https://i.pinimg.com/736x/f2/b5/b9/f2b5b99f75e6f4d1337a9b7afc7fc7c0.jpg"
+          class="skill-icon"
+        />
+      </div>
+      <!-- Tools & Framework -->
+      <h4 class="fw-semibold">Tools & Framework</h4>
+      <div class="d-flex flex-wrap gap-5 mb-5">
+        <img
+          src="https://i.pinimg.com/736x/b6/e9/14/b6e914bed024672c74364f3664098320.jpg"
+          class="skill-icon"
+        />
+        <img
+          src="https://i.pinimg.com/736x/92/d6/60/92d660adb69ff63b4d133cda9592d848.jpg"
+          class="skill-icon"
+        />
+        <img
+          src="https://i.pinimg.com/736x/ed/94/e3/ed94e3e6fae5dd09cd8f7652f4a01c3d.jpg"
+          class="skill-icon"
+        />
+        <img
+          src="https://i.pinimg.com/736x/11/a7/b5/11a7b5fb70c24e5632f2baccce14603c.jpg"
+          class="skill-icon"
+        />
+      </div>
+    </div>
+  </div>
 </template>
 <style>
 .banner {
@@ -104,8 +150,28 @@
   color: #ffff;
 }
 .about {
+  background-color: #e2e4e6;
   min-height: 100vh;
   display: flex;
   align-items: center;
+}
+.skill {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+}
+.skill-icon {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #ddd;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s;
+  padding: 5px;
+}
+.skill-icon:hover {
+  transform: scale(1.1);
+  border-color: #000;
 }
 </style>
