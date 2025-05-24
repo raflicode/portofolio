@@ -99,7 +99,9 @@
       <h2 class="fw-bold display-4 text-center">Skills</h2>
       <!-- Language & Markup -->
       <h4 class="fw-semibold">Languages & Markup</h4>
-      <div class="d-flex flex-wrap gap-5 mb-5">
+      <div
+        class="d-flex flex-wrap justify-content-center justify-content-md-start gap-5 mb-5"
+      >
         <img
           src="https://i.pinimg.com/736x/a2/7d/14/a27d14a27b5ef7d35c241d5cc9c1deb4.jpg"
           class="skill-icon"
@@ -119,7 +121,9 @@
       </div>
       <!-- Tools & Framework -->
       <h4 class="fw-semibold">Tools & Framework</h4>
-      <div class="d-flex flex-wrap gap-5 mb-5">
+      <div
+        class="d-flex flex-wrap justify-content-center justify-content-md-start gap-5 mb-5"
+      >
         <img
           src="https://i.pinimg.com/736x/b6/e9/14/b6e914bed024672c74364f3664098320.jpg"
           class="skill-icon"
