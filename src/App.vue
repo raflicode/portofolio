@@ -49,40 +49,38 @@
     </div>
   </nav>
   <!-- hero section -->
-  <div class="container-fluid banner" id="home">
+  <div class="container-fluid banner align-content-center" id="home">
     <div class="container text-center">
       <img class="mb-5" src="src/assets/logo.png" width="100px" alt="logo" />
       <h4 class="display-6 fw-semibold">Welcome to my Portfolio</h4>
       <h3 class="display-1 fw-bold">Rafli Aulia Al Giffari</h3>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa dolorum
-        reiciendis esse recusandae incidunt numquam beatae consequatur nostrum
-        eos, repellat sapiente, voluptas enim maxime quos fugit exercitationem
-        aliquid, unde optio.
-      </p>
+      <h5>
+        I'm a passionate Web Developer who loves turning coffee into code.
+      </h5>
     </div>
   </div>
   <!-- about -->
-  <div class="container-fluid about" id="about">
+  <div class="container-fluid about align-content-center pt-5 pb-5" id="about">
     <div class="container">
       <h2 class="display-3 text-center fw-bold">
         About <span class="text-dark-emphasis">Me</span>
       </h2>
       <p class="text-center mb-5">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos molestias
-        obcaecati est ex mollitia dolore.
+        Just someone who's into web development and modern technology.
       </p>
       <div class="d-flex flex-column flex-md-row align-items-center pt-5 gap-4">
         <div class="col-md-8">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quasi
-            dignissimos suscipit voluptates rerum harum. Lorem, ipsum dolor sit
-            amet consectetur adipisicing elit. Tempora dolore aperiam
-            repudiandae minima vitae porro veritatis quas ducimus aliquam
-            excepturi rem optio quasi vel asperiores magni velit suscipit,
-            perspiciatis reprehenderit corporis molestiae molestias voluptate
-            soluta provident mollitia. Eos maiores voluptate doloribus culpa
-            quae odio sapiente! Ipsam repellat a reiciendis quidem?
+            Hey, I’m Rafli Aulia Al Giffari, a Software Engineering student
+            who’s super passionate about learning new things and diving deep
+            into coding. My dream is to become a skilled fullstack developer,
+            mastering both front-end and back-end, so I can build cool apps that
+            actually help people. To me, coding isn’t just about writing lines
+            of code — it’s about constantly growing and not being afraid to
+            fail. I love exploring the latest tech and working on projects that
+            make a difference, especially those related to mental health.
+            Basically, I wanna be a developer who’s not just smart but also fun
+            to work with!
           </p>
         </div>
         <img
@@ -146,12 +144,13 @@
 </template>
 <style>
 .banner {
-  background-image: url("https://images.unsplash.com/photo-1632334804712-d8046e6f0ce2?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("https://images.unsplash.com/photo-1689691849957-1ce9f9315e91?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 11%;
   color: #ffff;
+  min-height: 100vh;
 }
 .about {
   background-color: #e2e4e6;
