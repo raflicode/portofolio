@@ -59,6 +59,7 @@
       </h5>
     </div>
   </div>
+  
   <!-- about -->
   <div class="container-fluid about align-content-center pt-5 pb-5" id="about">
     <div class="container">
@@ -112,6 +113,7 @@
           src="https://i.pinimg.com/736x/3d/43/02/3d43022040cff5074ebe1cd483fcdfe4.jpg"
           class="skill-icon"
         />
+
         <img
           src="https://i.pinimg.com/736x/f2/b5/b9/f2b5b99f75e6f4d1337a9b7afc7fc7c0.jpg"
           class="skill-icon"
