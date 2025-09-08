@@ -39,7 +39,7 @@
             <a class="nav-link" href="#project">Project</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#project">Certificate</a>
+            <a class="nav-link" href="#certificate">Certificate</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
