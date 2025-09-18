@@ -1,7 +1,7 @@
 <template>
   <!-- navbar -->
   <nav
-    class="navbar navbar-expand-lg navbar-dark p-2 bg-dark rounded shadow-lg fixed-top"
+    class="navbar navbar-expand-lg navbar-dark p-2 bg-dark rounded-bottom shadow-lg fixed-top"
   >
     <div class="container-fluid pe-4 ps-4">
       <a class="navbar-brand d-flex align-items-center gap-2" href="/">
@@ -61,7 +61,7 @@
   </div>
   
   <!-- about -->
-  <div class="container-fluid about align-content-center pt-5 pb-5" id="about">
+  <div class="container-fluid about align-content-center pt-5 pb-5" id="about" data-aos="fade-up">
     <div class="container">
       <h2 class="display-3 text-center fw-bold">
         About <span class="text-dark-emphasis">Me</span>
@@ -70,7 +70,7 @@
         Just someone who's into web development and modern technology.
       </p>
       <div class="d-flex flex-column flex-md-row align-items-center pt-5 gap-4">
-        <div class="col-md-8">
+        <div class="col-md-8"data-aos="fade-right">
           <p>
             Hey, I’m Rafli Aulia Al Giffari, a Software Engineering student
             who’s super passionate about learning new things and diving deep
@@ -87,19 +87,20 @@
         <img
           src="src/assets/gb.jpg"
           class="col-md-3 float-md-end mt-auto crop-img rounded-circle"
-          height="260"
+          height="260" data-aos="fade-left"
         />
       </div>
     </div>
   </div>
   <!-- skills -->
-  <div class="container-fluid skill py-5" id="skills">
+  <div class="container-fluid skill py-5" id="skills" data-aos="fade-up">
     <div class="container">
       <h2 class="fw-bold display-4 text-center">Skills</h2>
       <!-- Language & Markup -->
-      <h4 class="fw-semibold">Languages & Markup</h4>
+      <h4 class="fw-semibold"data-aos="fade-right">Languages & Markup</h4>
       <div
         class="d-flex flex-wrap justify-content-center justify-content-md-start gap-5 mb-5"
+        data-aos="fade-right"
       >
         <img
           src="https://i.pinimg.com/736x/a2/7d/14/a27d14a27b5ef7d35c241d5cc9c1deb4.jpg"
@@ -120,9 +121,10 @@
         />
       </div>
       <!-- Tools & Framework -->
-      <h4 class="fw-semibold">Tools & Framework</h4>
+      <h4 class="fw-semibold"data-aos="fade-right">Tools & Framework</h4>
       <div
         class="d-flex flex-wrap justify-content-center justify-content-md-start gap-5 mb-5"
+        data-aos="fade-right"
       >
         <img
           src="https://i.pinimg.com/736x/b6/e9/14/b6e914bed024672c74364f3664098320.jpg"
@@ -144,6 +146,7 @@
     </div>
   </div>
 </template>
+
 <style>
 .banner {
   background-image: url("https://images.unsplash.com/photo-1689691849957-1ce9f9315e91?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
@@ -180,3 +183,18 @@
   border-color: #000;
 }
 </style>
+
+<script>
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+export default {
+  name: "App",
+  mounted() {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  },
+};
+</script>
