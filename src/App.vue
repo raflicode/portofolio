@@ -145,6 +145,149 @@
       </div>
     </div>
   </div>
+
+  <!-- project -->
+<div class="container-fluid project py-5" id="project" data-aos="fade-up">
+  <div class="container text-center">
+    <h2 class="fw-bold display-4 mb-2">My Project</h2>
+    <p class="text-muted mb-5">A collection of projects I've worked on.</p>
+
+    <div class="row justify-content-center gap-4">
+
+      <!-- Card Project 1 -->
+      <div class="col-md-3 col-sm-6" data-aos="fade-up">
+        <div class="work-card shadow-lg border-0 rounded-4 overflow-hidden text-start">
+          <img src="../src/assets/dumy_project.jpg" class="work-img" alt="Domposer" />
+          <div class="p-3">
+            <h5 class="fw-bold">Dummy</h5>
+            <p class="text-muted small">
+              Domposer is a website builder that helps users easily build and manage projects with an intuitive UI.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card Project 2 -->
+      <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="work-card shadow-lg border-0 rounded-4 overflow-hidden text-start">
+          <img src="../src/assets/dumy_project.jpg" class="work-img" alt="Bay.js" />
+          <div class="p-3">
+            <h5 class="fw-bold">Dummy</h5>
+            <p class="text-muted small">
+              A lightweight library for web components. No dependencies, fast, and easy to integrate.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card Project 3 -->
+      <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="work-card shadow-lg border-0 rounded-4 overflow-hidden text-start">
+          <img src="../src/assets/dumy_project.jpg" class="work-img" alt="Cookiemunch" />
+          <div class="p-3">
+            <h5 class="fw-bold">Dumy</h5>
+            <p class="text-muted small">
+              A customizable cookie plugin made with vanilla JS and SCSS to manage cookie preferences.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- certificate -->
+<div class="container-fluid certificate py-5" id="certificate" data-aos="fade-up">
+  <div class="container text-center">
+    <h2 class="fw-bold display-4 mb-5">Certificates</h2>
+
+    <div class="row justify-content-center gap-4">
+      <!-- Certificate 1 -->
+      <div class="col-md-4 col-sm-6" data-aos="fade-up">
+        <div class="card border-0 shadow-lg rounded-4 overflow-hidden">
+          <img src="../src/assets/sertifikat1.jpg" class="card-img-top" alt="Certificate 1">
+          <div class="card-body bg-dark text-light">
+            <h5 class="fw-semibold mb-0">UI/UX DESIGN WITH FIGMA</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certificate 2 -->
+      <div class="col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="card border-0 shadow-lg rounded-4 overflow-hidden">
+          <img src="../src/assets/dumy_project.jpg" class="card-img-top" alt="Certificate 2">
+          <div class="card-body bg-dark text-light">
+            <h5 class="fw-semibold mb-0">Dummy</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certificate 3 -->
+      <div class="col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="card border-0 shadow-lg rounded-4 overflow-hidden">
+          <img src="../src/assets/dumy_project.jpg" class="card-img-top" alt="Certificate 3">
+          <div class="card-body bg-dark text-light">
+            <h5 class="fw-semibold mb-0">Dummy</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- contact -->
+<div class="container-fluid contact py-5" id="contact" data-aos="fade-up">
+  <div class="container">
+    <h2 class="fw-bold display-4 text-center mb-4">Contact</h2>
+    <p class="text-center mb-5">
+      Feel free to reach out — I’d love to connect!
+    </p>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="card p-4 shadow-lg border-0">
+          <form id="contact-form">
+            <div class="mb-3">
+              <label class="form-label fw-semibold">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                name="name"
+                placeholder="Your name"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label class="form-label fw-semibold">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                name="email"
+                placeholder="Your email"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label class="form-label fw-semibold">Message</label>
+              <textarea
+                class="form-control"
+                name="message"
+                rows="4"
+                placeholder="Write your message here..."
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark w-100 fw-semibold">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 </template>
 
 <style>
@@ -182,6 +325,81 @@
   transform: scale(1.1);
   border-color: #000;
 }
+
+.project {
+  min-height: 100vh;
+  background-color: #f9fafc;
+  display: flex;
+  align-items: center;
+}
+
+.work-card {
+  background: #fff;
+  transition: all 0.3s ease;
+  border: 1px solid #e6e6e6;
+}
+
+.work-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.work-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+.work-card h5 {
+  color: #111;
+}
+
+.work-card p {
+  line-height: 1.4;
+}
+
+.certificate {
+  min-height: 100vh;
+  background-color: #e2e4e6;
+  display: flex;
+  align-items: center;
+}
+
+.certificate .card {
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.certificate .card img {
+  width: 100%;
+  height: 220px;
+  object-fit: scale-down;
+  background-color: #fff;
+}
+
+.certificate .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.contact {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.contact .card {
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+.contact .btn:hover {
+  transform: scale(1.03);
+  transition: 0.3s ease;
+}
+
 </style>
 
 <script>
@@ -197,4 +415,39 @@ export default {
     });
   },
 };
+
+import emailjs from "emailjs-com";
+import { ref } from "vue";
+
+const name = ref("");
+const email = ref("");
+const message = ref("");
+
+// ganti ID-nya pake punyamu
+const SERVICE_ID = "service_8qtezzh";
+const TEMPLATE_ID = "template_5chl70x";
+const PUBLIC_KEY = "CRtbCqZ__KHs_rNd7";
+
+const sendEmail = () => {
+  emailjs
+    .send(SERVICE_ID, TEMPLATE_ID, {
+      name: name.value,
+      email: email.value,
+      message: message.value,
+    }, PUBLIC_KEY)
+    .then(
+      (response) => {
+        alert("Pesan berhasil dikirim");
+        console.log("SUCCESS!", response.status, response.text);
+        name.value = "";
+        email.value = "";
+        message.value = "";
+      },
+      (error) => {
+        alert("Gagal mengirim pesan");
+        console.error("FAILED...", error);
+      }
+    );
+};
+
 </script>
